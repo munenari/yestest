@@ -11,6 +11,6 @@ func main() {
 		yes = os.Args[1]
 	}
 	for {
-		fmt.Println(yes)
+		fmt.Fprintln(os.Stdout, yes)
 	}
 }
